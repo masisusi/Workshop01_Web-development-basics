@@ -20,14 +20,13 @@ body {
     background-color:antiquewhite;
     font-family: Arial, sans-serif;
     color: #333;
-
 }
 
 /* TODO Task 2: Style your headings */
 h1 {
     font-size: 50px;
     padding: 20px;
-    color:rgb(40, 107, 84);
+    color: rgb(40, 107, 84);
 }
 
 h2, h3 {
@@ -35,12 +34,11 @@ h2, h3 {
     margin-bottom: 7px;
 }
 
-
 /* TODO Task 2: Style your paragraphs */
 p {
     margin: 0 auto;
     padding: 10px 20px;
-    color:rgb(28, 73, 57);
+    color: rgb(28, 73, 57);
     line-height: 1.7;
     text-align: justify;
     max-width: 800px;
@@ -50,7 +48,7 @@ p {
 img {
     border: none;
     padding: 30px;
-    border-radius: 45%;     /* Makes the corners rounded*/
+    border-radius: 45%;     /* Make the corners rounded*/
     width: 300px;
     max-width: 100%;
 }
@@ -60,7 +58,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
 }
 
 nav ul {
@@ -80,7 +78,7 @@ nav li {
 nav a {
     /* Style the links */
     padding: 20px;
-    color:rgb(8, 91, 173);
+    color: rgb(8, 91, 173);
     font-weight: bold;
     text-decoration: none;
 }
@@ -91,15 +89,9 @@ nav a:hover {
     color: aliceblue;
 }
 
-/* Main Content Styles */
-main {
-    
-}
-
 section {
     /* Add spacing between sections */
     margin: 20px auto;
-
 }
 
 /* TODO Task 4: Form Styles */
@@ -134,9 +126,9 @@ input[type="submit"] {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    color:aliceblue;
+    color: aliceblue;
     font-weight: bold;
-    background-color:rgb(51, 128, 102);
+    background-color: rgb(51, 128, 102);
     cursor: pointer;
 
 }
@@ -144,23 +136,37 @@ input[type="submit"] {
 button:hover,
 input[type="submit"]:hover {
     /* Add hover effect for button */
-    background-color: rgb(128,128,176);
-}
-
-/* Footer Styles */
-footer {
-    
+    background-color: rgb(128, 128, 176);
 }
 
 /* TODO Task 5: Media Queries for Responsive Design */
 /* Tablet styles (optional) */
 @media (max-width: 768px) {
     /* Add your tablet/mobile styles here */
-    
+    nav{
+        position: static;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    body {
+        padding: 15px;
+    }
 }
 
 /* Mobile styles */
 @media (max-width:  480px) {
     /* Add your mobile-specific styles here */
-    
+    h1 {
+        font-size: 30px;
+    }
 }
