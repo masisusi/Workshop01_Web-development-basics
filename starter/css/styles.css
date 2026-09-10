@@ -56,23 +56,36 @@ img {
 
 /* TODO Task 3: Navigation Styles */
 nav {
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:antiquewhite;
 }
 
 nav ul {
     /* Remove bullets and style the list */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav li {
-    /* Display items horizontally */
+    /* Add spacing around each menu item */
+    padding: 14px 16px;
 }
 
 nav a {
     /* Style the links */
+    padding: 20px;
+    color:rgb(8, 91, 173);
+    text-decoration: none;
 }
 
 nav a:hover {
     /* Add hover effect */
+    background-color: rgb(128, 128, 176);
 }
 
 /* Main Content Styles */
