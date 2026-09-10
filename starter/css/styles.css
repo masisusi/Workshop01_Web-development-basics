@@ -7,31 +7,51 @@
 /* Reset and Base Styles */
 * {
     /* Add your reset styles here (margin, padding, box-sizing) */
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     /* Add body styles:  font-family, background-color, color, etc. */
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    background-color:antiquewhite;
+    font-family: Arial, sans-serif;
+    color: #333;
 
 }
 
 /* TODO Task 2: Style your headings */
 h1 {
-    
+    font-size: 50px;
+    padding: 20px;
+    color:rgb(40, 107, 84);
 }
 
-h2 {
-    
+h2, h3 {
+    color: rgb(125, 160, 149);
 }
+
 
 /* TODO Task 2: Style your paragraphs */
 p {
-    
+    margin: 0 auto;
+    padding: 10px 20px;
+    color:rgb(28, 73, 57);
+    line-height: 1.7;
+    text-align: justify;
+    max-width: 800px;
 }
 
 /* TODO Task 2: Style your images */
 img {
-    
+    border: none;
+    padding: 30px;
+    border-radius: 45%;     /* Makes the corners rounded*/
+    width: 300px;
+    max-width: 100%;
 }
 
 /* TODO Task 3: Navigation Styles */
